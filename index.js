@@ -21,11 +21,10 @@ class Route {
    function horizontalInteger(avenue) {
      eastWest.indexOf(avenue)
    }
-   horizontalTravel = this.horizontalInteger(this.endingLocation)
- }
-    let horizontalTravel = endingAvenue - startingAvenue
-    let verticalTravel = this.endingLocation.vertical - this.beginningLocation.vertical
-    return horizontalTravel + verticalTravel
+   
+   horizontalTravel = this.horizontalInteger(this.endingLocation.horizontal) - this.horizontalInteger(this.beginningLocation)
+  let verticalTravel = this.endingLocation.vertical - this.beginningLocation.vertical
+  return horizontalTravel + verticalTravel
   }
   
   estimatedTime(peakHours) {
