@@ -16,8 +16,6 @@ class Route {
   }
   
   blocksTravelled() {
-    console.log(this.beginningLocation)
-    console.log(this.endingLocation)
     let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
     
     let startingAvenue = eastWest.indexOf(this.beginningLocation.horizontal)
