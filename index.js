@@ -25,12 +25,12 @@ class Route {
     return horizontalTravel + verticalTravel
   }
   
-  estimatedTime(hours) extends blocksTravelled {
+  estimatedTime(hours) {
     if (hours === "peak hours") {
-      return blocksTravelled(blocks) / 2
+      return this.blocksTravelled() / 2
     }
     else {
-      return blocksTravelled(blocks) / 3
+      return this.blocksTravelled() / 3
     }
   }
 }
