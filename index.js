@@ -25,7 +25,7 @@ class Route {
     return horizontalTravel + verticalTravel
   }
   
-  estimatedTime(blocks, hours) {
+  estimatedTime(hours) {
     if (hours === "peak hours") {
       return blocksTravelled(blocks) / 2
     }
