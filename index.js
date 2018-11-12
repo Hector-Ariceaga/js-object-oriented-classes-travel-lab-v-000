@@ -29,7 +29,7 @@ class Route {
     if (hours === "peak hours") {
       return this.blocksTravelled() / 2
     }
-    else {
+    else if (hours === "off peak hours") {
       return this.blocksTravelled() / 3
     }
   }
