@@ -20,7 +20,7 @@ class Route {
     
     let startingAvenue = eastWest.indexOf(this.beginningLocation.horizontal)
     let endingAvenue = eastWest.indexOf(this.endingLocation.horizontal)
-    let horizontalTravel = startingAvenue - startingAvenue
+    let horizontalTravel = endingAvenue - startingAvenue
     
     console.log(horizontalTravel)
     console.log(startingAvenue)
