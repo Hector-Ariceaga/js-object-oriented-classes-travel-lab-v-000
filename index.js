@@ -18,7 +18,7 @@ class Route {
   }
   
   eastWestInteger(avenue) {
-    
+    return 
   }
  blocksTravelled() {
    function horizontalInteger(avenue) {
