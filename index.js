@@ -17,6 +17,9 @@ class Route {
     this.endingLocation = endingLocation
   }
   
+  eastWestInteger(avenue) {
+    
+  }
  blocksTravelled() {
    function horizontalInteger(avenue) {
      eastWest.indexOf(avenue)
