@@ -22,5 +22,6 @@ class Route {
     let endingAvenue = eastWest.indexOf(this.endingLocation.horizontal)
     let horizontalTravel = endingAvenue - startingAvenue
     let verticalTravel = this.endingLocation.vertical - this.beginningLocation.vertical
+    return horizontalTravel + verticalTravel
   }
 }
