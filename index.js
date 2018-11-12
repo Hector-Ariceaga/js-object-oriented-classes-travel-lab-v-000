@@ -18,7 +18,7 @@ class Route {
   }
   
  blocksTravelled() {
-   horizontalInteger = eastWest.indexOf(avenue)
+   horizontalInteger = eastWest.indexOf(this.avenue)
    horizontalTravel = 
  }
     let horizontalTravel = endingAvenue - startingAvenue
