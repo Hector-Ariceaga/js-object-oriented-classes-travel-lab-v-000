@@ -15,10 +15,10 @@ class Route {
     this.endingLocation = endingLocation
   }
   
-  console.log(beginningLocation)
-  console.log(endingLocation)
+  
   
   blocksTravelled() {
-    
+    console.log(beginningLocation)
+  console.log(endingLocation)
   }
 }
