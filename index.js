@@ -22,7 +22,7 @@ class Route {
   }
  blocksTravelled() {
 
-  let horizontalTravel = this.eastWestInteger(this.endingLocation.horizontal) - this.eastWestInteger(this.beginningLocation)
+  let horizontalTravel = this.eastWestInteger(this.endingLocation.horizontal) - this.eastWestInteger(this.beginningLocation.horizontal)
   
   let verticalTravel = this.endingLocation.vertical - this.beginningLocation.vertical
   
