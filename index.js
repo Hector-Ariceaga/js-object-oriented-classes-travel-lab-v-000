@@ -22,7 +22,7 @@ class Route {
      eastWest.indexOf(avenue)
    }
    
-   horizontalTravel = this.horizontalInteger(this.endingLocation.horizontal) - this.horizontalInteger(this.beginningLocation)
+   horizontalTravel = horizontalInteger(this.endingLocation.horizontal) - horizontalInteger(this.beginningLocation)
   let verticalTravel = this.endingLocation.vertical - this.beginningLocation.vertical
   
   return horizontalTravel + verticalTravel
