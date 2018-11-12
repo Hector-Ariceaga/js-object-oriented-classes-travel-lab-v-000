@@ -18,6 +18,8 @@ class Route {
   }
   
  blocksTravelled() {
+   
+ }
     let horizontalTravel = endingAvenue - startingAvenue
     let verticalTravel = this.endingLocation.vertical - this.beginningLocation.vertical
     return horizontalTravel + verticalTravel
