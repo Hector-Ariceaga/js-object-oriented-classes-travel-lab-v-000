@@ -22,8 +22,7 @@ class Route {
     console.log(this.endingLocation)
     let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
     
-    let startingAvenue = eastWest.filter(avenue => avenue === this.beginningLocation.horizontal)
-    console.log(eastWest.indexOf(startingAvenue))
+    let startingAvenue = eastWest.indexOf(this.beginningLocation.horizontal)
     
     let horizontalTravel = this.endingLocation.horizontal - this.endingLocation.horizontal
   }
