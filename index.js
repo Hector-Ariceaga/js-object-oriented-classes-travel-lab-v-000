@@ -25,5 +25,7 @@ class Route {
     return horizontalTravel + verticalTravel
   }
   
-  
+  estimatedTime() {
+    
+  }
 }
