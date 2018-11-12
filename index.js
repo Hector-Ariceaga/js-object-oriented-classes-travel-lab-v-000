@@ -26,7 +26,7 @@ class Route {
   
   let verticalTravel = this.endingLocation.vertical - this.beginningLocation.vertical
   
-  return Math.abs(horizontalTravel) + Math.abs(verticalTravel)
+  return horizontalTravel + verticalTravel
   }
   
   estimatedTime(peakHours) {
