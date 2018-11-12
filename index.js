@@ -20,6 +20,8 @@ class Route {
   blocksTravelled() {
     console.log(this.beginningLocation)
     console.log(this.endingLocation)
-    let 
+    let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
+    
+    let horizontalTravel = this.endingLocation.
   }
 }
