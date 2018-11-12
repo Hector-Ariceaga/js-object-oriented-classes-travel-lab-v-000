@@ -18,7 +18,7 @@ class Route {
   
   
   blocksTravelled() {
-    console.log(beginningLocation)
-  console.log(endingLocation)
+    console.log(this.beginningLocation)
+  console.log(this.endingLocation)
   }
 }
