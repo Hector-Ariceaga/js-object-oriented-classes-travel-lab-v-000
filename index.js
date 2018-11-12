@@ -24,4 +24,6 @@ class Route {
     let verticalTravel = this.endingLocation.vertical - this.beginningLocation.vertical
     return horizontalTravel + verticalTravel
   }
+  
+  
 }
