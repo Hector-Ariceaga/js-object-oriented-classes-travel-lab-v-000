@@ -20,6 +20,7 @@ class Route {
   eastWestInteger(avenue) {
     return eastWest.indexOf(avenue)
   }
+  
  blocksTravelled() {
 
   let horizontalTravel = this.eastWestInteger(this.endingLocation.horizontal) - this.eastWestInteger(this.beginningLocation.horizontal)
